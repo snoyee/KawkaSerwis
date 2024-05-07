@@ -1,0 +1,529 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  font-family: Quicksand;
+  color: rgb(0, 0, 0);
+}
+
+@keyframes delay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  background: #33333315;
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.Main {
+  height: fit-content;
+}
+
+.UpMain {
+  height: 125px;
+  width: auto !important;
+  -webkit-box-shadow: 0px 4px 4px #00000059;
+  box-shadow: 0px 4px 4px #00000059;
+  background-color: whitesmoke;
+  animation: delayView 0.5s linear 1;
+}
+
+@keyframes delayView {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.Contact {
+  width: fit-content;
+  position: relative;
+  left: 20%;
+  font-size: 14px;
+  ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    gap: 0 10px;
+    list-style-type: none;
+    a {
+      cursor: pointer;
+      text-decoration: none;
+    }
+    a:hover {
+      color: rgb(211, 155, 0);
+      transition: all 0.3s ease-out;
+    }
+  }
+  #Line {
+    width: 1px;
+    height: 18px;
+    margin-top: 2px;
+    background-color: rgba(0, 0, 0, 0.164);
+  }
+}
+
+.NameAndQuote {
+  width: fit-content;
+  position: relative;
+  left: 20%;
+  font-size: 17px;
+  * {
+    margin: auto;
+  }
+  h1 {
+    width: fit-content;
+    margin: 0px 5px;
+    cursor: pointer;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #fa7900, #bcbe1d);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  p {
+    margin-left: 30px;
+    font-weight: 400;
+  }
+}
+
+.Navbar {
+  width: fit-content;
+  position: relative;
+  left: 20%;
+  top: 10px;
+  margin-left: 60px;
+  a {
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(255, 166, 0);
+    transition: all 0.5s ease-out;
+  }
+}
+
+.FooterMain {
+  z-index: 99;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: whitesmoke;
+  height: fit-content;
+  text-align: center;
+  -webkit-box-shadow: 0px -4px 4px #00000059;
+  box-shadow: 0px -4px 4px #00000059;
+  p {
+    margin: auto;
+    margin-top: 5px;
+    width: fit-content;
+  }
+  .Logos {
+    img {
+      width: 110px;
+      margin-right: 15px;
+      margin-left: 15px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
+}
+.card {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  display: inline-block;
+  height: fit-content;
+  background-color: white;
+  border-radius: 10px;
+  img {
+    height: 190px;
+  }
+  a:hover {
+    color: orange;
+  }
+}
+
+.CheckLink {
+  text-decoration: none;
+}
+
+.OfferMain {
+  text-align: center;
+  animation: delayView 0.5s linear 1;
+  h1 {
+    color: rgb(255, 166, 0);
+    font-weight: 100;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .OfferOptions {
+    align-items: center;
+    margin: auto;
+    height: fit-content;
+  }
+  #OfferPicFirst {
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 40px;
+    margin-right: 60px;
+    position: relative;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: black;
+    height: 300px;
+    animation: LeftPicAnimation 1s forwards 1;
+    img {
+      filter: blur(5px);
+      border-left: 1px solid orange;
+      border-right: 1px solid orange;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgb(168, 111, 4);
+      width: 450px;
+      height: 300px;
+      opacity: 0.4;
+    }
+    p {
+      position: absolute;
+      font-size: 50px;
+      color: white;
+      font-weight: bold;
+      text-shadow: 0px 0px 15px rgb(253, 253, 253);
+      opacity: 0.8;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  #OfferPicFirst:hover {
+    img {
+      filter: blur(0px);
+      transition: all 0.5s ease-out;
+      box-shadow: 0px 0px 50px rgb(168, 111, 4);
+    }
+    p {
+      transition: all 0.5s ease-out;
+    }
+  }
+  #OfferPicSecond {
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 60px;
+    position: relative;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: black;
+    height: 300px;
+    animation: RightPicAnimation 1s forwards 1;
+    img {
+      filter: blur(5px);
+      border-left: 1px solid orange;
+      border-right: 1px solid orange;
+      border-radius: 10px;
+      width: 450px;
+      height: 300px;
+      box-shadow: 0px 0px 20px rgb(168, 111, 4);
+      opacity: 0.4;
+    }
+    p {
+      position: absolute;
+      font-size: 50px;
+      color: white;
+      font-weight: bold;
+      text-shadow: 0px 0px 15px rgb(253, 253, 253);
+      opacity: 0.8;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  #OfferPicSecond:hover {
+    img {
+      filter: blur(0px);
+      box-shadow: 0px 0px 50px rgb(168, 111, 4);
+      transition: all 0.5s ease-out;
+    }
+  }
+}
+.ItemWithDescription {
+  display: inline-block;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+  p {
+    margin: auto;
+  }
+  img {
+    width: 50px;
+    margin-left: 15px;
+  }
+}
+
+.OptionsToChooseFromService {
+  height: fit-content;
+  .OptionDrills {
+    display: inline-block;
+    margin: auto;
+    margin-top: 40px;
+    margin-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    p {
+      margin: auto;
+    }
+    img {
+      width: 50px;
+      margin-left: 15px;
+    }
+  }
+}
+
+.ContactInfoRepair {
+  h2 {
+    color: #333;
+    margin-bottom: auto;
+    button {
+      margin: 0;
+      border: 1px solid rgb(255, 166, 0);
+      border-radius: 5px;
+      padding: 5px;
+      position: relative;
+      bottom: 3px;
+      left: 10px;
+      cursor: pointer;
+      background-color: #333;
+      color: whitesmoke;
+    }
+    button:hover {
+      transition: all 0.3s ease-out;
+      color: rgb(255, 166, 0);
+    }
+    button:active {
+      color: #ffffff;
+      background-color: #fa7900;
+    }
+  }
+  p {
+    margin: 5px;
+    position: relative;
+    top: 25px;
+  }
+}
+
+.NumberCopySuccessDiv {
+  margin: auto;
+  width: fit-content;
+  height: 5px;
+  #NumberCopySuccess {
+    margin: 0px;
+    color: rgb(255, 154, 2);
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    display: none;
+    animation: delayViewCopySuccess 2s linear 1;
+  }
+}
+
+.EmailCopySuccessDiv {
+  margin: auto;
+  width: fit-content;
+  height: 5px;
+  #EmailCopySuccess {
+    margin: 0px;
+    color: rgb(255, 154, 2);
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    display: none;
+    animation: delayViewCopySuccess 2s linear 1;
+  }
+}
+
+.GoogleMapLocation {
+  iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  margin: auto;
+  margin-top: 30px;
+  width: 80%;
+  height: 600px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.QuestionDiv {
+  margin: auto;
+  width: 70%;
+  text-align: left;
+  .Question {
+    h2 {
+      color: #333;
+    }
+    p {
+      margin-left: 20px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #33333342;
+    }
+  }
+}
+
+.TextAboutUs {
+  margin: auto;
+  width: 70%;
+  p {
+    font-size: 110%;
+  }
+}
+
+@keyframes delayViewCopySuccess {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes LeftPicAnimation {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+
+@keyframes RightPicAnimation {
+  from {
+    right: -1000px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media all and (max-width: 1850px) {
+  .OfferMain {
+    #OfferPicFirst {
+      top: 22%;
+      transition: all 0.3s ease-out;
+    }
+    #OfferPicSecond {
+      top: 60%;
+      transition: all 0.3s ease-out;
+    }
+  }
+}
+
+@media all and (max-width: 1400px) {
+  .UpMain {
+    height: 120px;
+    transition: all 0.5s ease-in-out;
+  }
+  .Contact,
+  .NameAndQuote,
+  .Navbar {
+    left: 5%;
+    font-size: 90%;
+    transition: all 0.5s ease-in-out;
+  }
+  .FooterMain {
+    height: fit-content;
+    transition: all 0.5s ease-in-out;
+    .Logos {
+      img {
+        width: 80px;
+        margin-right: 25px;
+        margin-top: 5px;
+        transition: all 0.5s ease-in-out;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1050px) {
+  .Navbar {
+    a {
+      margin-right: 10px;
+    }
+  }
+  .Contact,
+  .NameAndQuote {
+    left: 5%;
+    font-size: 15px;
+    transition: all 0.5s ease-in-out;
+  }
+  .OfferOptions {
+    #OfferPicFirst {
+      margin: 30px 10px !important;
+    }
+    #OfferPicSecond {
+      margin: 30px 10px !important;
+    }
+  }
+}
+
+@media all and (max-width: 620px) {
+  .OfferMain {
+    font-size: 13px !important;
+  }
+  .OfferOptions {
+    #OfferPicFirst {
+      margin: 30px 10px !important;
+      img {
+        width: 350px;
+      }
+    }
+    #OfferPicSecond {
+      margin: 30px 10px !important;
+      img {
+        width: 350px;
+      }
+    }
+  }
+  .ContactInfoRepair {
+    h2 {
+      font-size: 15px !important;
+    }
+  }
+  .card {
+    display: block !important;
+    margin: auto !important;
+    margin-top: 25px !important;
+  }
+}
