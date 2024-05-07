@@ -3,8 +3,6 @@ import MakitaLogo from "../assets/Makita-Logo.png";
 import HikokiLogo from "../assets/hikoki_logo.png";
 import Stanley from "../assets/stanley.png";
 import deWalt from "../assets/deWalt.png";
-import stihl from "../assets/stihl.png";
-import stiga from "../assets/stiga.png";
 
 const Hud = () => {
   const CopyAlertEmail = () => {
