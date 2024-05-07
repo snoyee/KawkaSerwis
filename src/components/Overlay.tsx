@@ -32,16 +32,16 @@ const Hud = () => {
           <p>serwis elektronarzędzi w Bydgoszczy 🛠️</p>
         </div>
         <div className="Navbar">
-          <a id="Hud1" href="/">
+          <a id="Hud1" href="#/">
             Nasza Oferta
           </a>
-          <a id="Hud2" href="/Lokalizacja">
+          <a id="Hud2" href="#/Lokalizacja">
             Lokalizacja
           </a>
-          <a id="Hud3" href="/FAQ">
+          <a id="Hud3" href="#/FAQ">
             FAQ
           </a>
-          <a id="Hud4" href="/OFirmie">
+          <a id="Hud4" href="#/OFirmie">
             o firmie
           </a>
         </div>
