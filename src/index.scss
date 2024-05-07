@@ -410,6 +410,22 @@ body {
   }
 }
 
+#Opinions {
+  margin: auto;
+  width: fit-content;
+  margin-top: 70px;
+  animation: viewDelayOpinions 5s forwards 1;
+}
+
+@keyframes viewDelayOpinions {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes LeftPicAnimation {
   from {
     left: -1000px;

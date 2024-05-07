@@ -43,29 +43,10 @@ const Hud = () => {
           <a id="Hud4" href="#/OFirmie">
             o firmie
           </a>
+          <a id="Hud5" href="#/Opinie">
+            Opinie
+          </a>
         </div>
-        <div
-          className="elfsight-app-2ad6dd5e-3aa9-461d-9376-eaea66ff5758"
-          data-elfsight-app-lazy
-          style={{
-            position: "absolute",
-            top: "-20px",
-            width: "fit-content",
-            right: "5%",
-            transform: "scale(0.8)",
-          }}
-        ></div>
-        <div
-          style={{
-            position: "absolute",
-            top: "70px",
-            width: "180px",
-            height: "50px",
-            backgroundColor: "whitesmoke",
-            right: "5%",
-            zIndex: "1000",
-          }}
-        ></div>
       </div>
       <div className="FooterMain">
         <div className="Logos">
