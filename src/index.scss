@@ -561,4 +561,15 @@ body {
     left: 70px;
     bottom: 18px;
   }
+  .FooterMain {
+    height: fit-content;
+    .Logos {
+      img {
+        margin-bottom: 0px;
+      }
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
 }
