@@ -552,10 +552,12 @@ body {
   #Hud4 {
     display: block;
     margin: auto !important;
+    width: fit-content;
     margin-left: 10px !important;
   }
   #Hud5 {
     position: relative;
+    width: fit-content;
     left: 70px;
     bottom: 18px;
   }
