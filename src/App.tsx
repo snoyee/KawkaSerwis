@@ -11,13 +11,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/Oferta" element={<Home />}></Route>
-          <Route path="/Oferta/Sklep" element={<Shop />}></Route>
-          <Route path="/Oferta/Serwis" element={<Repair />}></Route>
-          <Route path="/Lokalizacja" element={<Location />}></Route>
-          <Route path="/FAQ" element={<FAQ />}></Route>
-          <Route path="/OFirmie" element={<About />}></Route>
+          <Route path="/KawkaSerwis/" element={<Home />}></Route>
+          <Route path="/KawkaSerwis/Oferta" element={<Home />}></Route>
+          <Route path="/KawkaSerwis/Oferta/Sklep" element={<Shop />}></Route>
+          <Route path="/KawkaSerwis/Oferta/Serwis" element={<Repair />}></Route>
+          <Route path="/KawkaSerwis/Lokalizacja" element={<Location />}></Route>
+          <Route path="/KawkaSerwis/FAQ" element={<FAQ />}></Route>
+          <Route path="/KawkaSerwis/OFirmie" element={<About />}></Route>
           <Route path="*" element={<Error404 />}></Route>
         </Routes>
       </BrowserRouter>
