@@ -518,6 +518,10 @@ body {
   .OfferMain {
     font-size: 13px !important;
   }
+  .UpMain {
+    height: 130px;
+    transition: all 0.5s ease-in-out;
+  }
   .OfferOptions {
     #OfferPicFirst {
       margin: 30px 10px !important;

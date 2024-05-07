@@ -13,6 +13,7 @@ const Opinions = () => {
         data-elfsight-app-lazy
         id="Opinions"
       ></div>
+      <div style={{ height: "200px" }}></div>
     </>
   );
 };
