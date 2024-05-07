@@ -21,7 +21,7 @@ const Error404 = () => {
             top: "50px",
             fontSize: "200%",
           }}
-          href="/"
+          href="#/"
         >
           Wróć do strony głownej
         </a>
