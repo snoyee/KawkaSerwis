@@ -22,13 +22,13 @@ const OurOffer = () => {
         </h1>
         <div className="OfferOptions">
           <div id="OfferPicFirst">
-            <a href="/Oferta/Serwis">
+            <a href="#/Oferta/Serwis">
               <img src={ToolinRepair}></img>
               <p>Naprawa</p>
             </a>
           </div>
           <div id="OfferPicSecond">
-            <a href="/Oferta/Sklep">
+            <a href="#/Oferta/Sklep">
               <img src={Shop}></img>
               <p>Sklep Online</p>
             </a>

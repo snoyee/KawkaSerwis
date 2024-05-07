@@ -28,7 +28,7 @@ const Hud = () => {
         </div>
 
         <div className="NameAndQuote">
-          <h1 onClick={() => (document.location.href = "/")}>KAWKA SERWIS</h1>
+          <h1 onClick={() => (document.location.href = "#/")}>KAWKA SERWIS</h1>
           <p>serwis elektronarzędzi w Bydgoszczy 🛠️</p>
         </div>
         <div className="Navbar">
