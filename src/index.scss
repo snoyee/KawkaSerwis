@@ -518,10 +518,6 @@ body {
   .OfferMain {
     font-size: 13px !important;
   }
-  .UpMain {
-    height: 130px;
-    transition: all 0.5s ease-in-out;
-  }
   .OfferOptions {
     #OfferPicFirst {
       margin: 30px 10px !important;
@@ -545,5 +541,22 @@ body {
     display: block !important;
     margin: auto !important;
     margin-top: 25px !important;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .UpMain {
+    height: 130px;
+    transition: all 0.5s ease-in-out;
+  }
+  #Hud4 {
+    display: block;
+    margin: auto !important;
+    margin-left: 10px !important;
+  }
+  #Hud5 {
+    position: relative;
+    left: 70px;
+    bottom: 18px;
   }
 }
