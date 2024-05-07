@@ -1,10 +1,6 @@
-import { useEffect } from "react";
 import Overlay from "./Overlay";
 
 const Error404 = () => {
-  useEffect(() => {
-    document.getElementById("Hud2")!.style.color = "orange";
-  }, []);
   return (
     <>
       <Overlay />
