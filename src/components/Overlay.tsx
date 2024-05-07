@@ -55,8 +55,6 @@ const Hud = () => {
           <img src={Stanley}></img>
           <img src={HikokiLogo}></img>
           <img src={deWalt}></img>
-          <img src={stihl}></img>
-          <img src={stiga}></img>
           <h3 style={{ margin: "0", color: "black", fontWeight: "400" }}>
             KAWKA Serwis™
           </h3>
